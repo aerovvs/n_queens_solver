@@ -1,0 +1,26 @@
+CJ Hosea
+CS 4200
+N-Queen Problem Solver
+
+This project implements three local search algorithms to solve the 8-Queen problem:
+
+1. steepest-ascent hill climbing: attempts to minimize conflicts by iteratively selecting the best neighbor
+2. simulated annealing: uses probabilistic exploration to escape local optima
+3. min-conflicts: resolves conflicts directly by focusing on the most problematic queens
+
+The program analyzes the success rates, search costs, and runtimes for each algorithm, provides a final solution for each algorithm when successful and supports testing with a large number of random 8-Queen instances.
+
+How to Run:
+1. Run the program: python3 project2.py
+2. The program will automatically:
+solve 100 random instances of the 8-Queen problem using each algorithm and display:
+success rates
+average steps
+average runtimes
+a final solution for each algorithm if successful
+
+For each algorithm, the program analyzes:
+success rate = percentage of solved instances
+average steps = the mean number of steps taken
+average time = the average runtime in seconds
+
